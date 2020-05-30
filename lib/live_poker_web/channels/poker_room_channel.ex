@@ -17,6 +17,11 @@ defmodule LivePokerWeb.PokerRoomChannel do
     {:reply, {:ok, payload}, socket}
   end
 
+  def handle_in("hello", %{"message" => body}, socket) do
+    broadcast!(socket, "hello", %{message: body})
+    {:noreply, socket}
+  end
+
   # It is also common to receive messages from the client and
   # broadcast to everyone in the current topic (poker_room:lobby).
   @impl true
