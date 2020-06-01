@@ -57,11 +57,20 @@ socket.connect()
 // Now that you are connected, you can join channels with a topic:
 let channel = socket.channel("poker_room:lobby", {})
 let c = document.querySelector("#container");
-
+let buttons = document.querySelectorAll(".send");
+let name = ""
+document.querySelector("#n").addEventListener("change", (e)=>{
+  name = e.target.value
+});
+for (let b of buttons) {
+  b.addEventListener("click", (e)=> {
+    channel.push("hello", {message: name + ": " + e.target.innerHTML})
+  })
+}
 channel.on("hello", payload => {
   console.log("received")
   let messageItem = document.createElement("p")
-  messageItem.innerText = `[${Date()}] ${payload.message}`
+  messageItem.innerText = `${payload.message}`
   c.appendChild(messageItem)  
 })
 
@@ -70,5 +79,5 @@ channel.join()
   .receive("error", resp => { console.log("Unable to join", resp) })
 
 let i = 0;
-window.setInterval(()=>{channel.push("hello", {message: i++})}, 1000)
+// window.setInterval(()=>{channel.push("hello", {message: i++})}, 1000)
 export default socket
