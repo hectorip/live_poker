@@ -78,6 +78,5 @@ channel.join()
   .receive("ok", resp => { console.log("Joined successfully", resp) })
   .receive("error", resp => { console.log("Unable to join", resp) })
 
-let i = 0;
 // window.setInterval(()=>{channel.push("hello", {message: i++})}, 1000)
 export default socket
