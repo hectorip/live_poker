@@ -1,0 +1,9 @@
+<div id="container">
+<h1>Estimation Poker</h1>
+<p class="text-muted">Introduce un código o crea una nueva sesión.</p>
+Entrar: <input  type="text" id="session_code" />
+<button id="enter">Entrar</button>
+<hr>
+<button>Crear nueva sesión</button>
+
+</div>

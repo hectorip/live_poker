@@ -47,7 +47,7 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 //         {:ok, user_id} ->
 //           {:ok, assign(socket, :user, user_id)}
 //         {:error, reason} ->
-//           :error
+//           :error 
 //       end
 //     end
 //
