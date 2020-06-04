@@ -1,9 +1,16 @@
 <div id="container">
-<h1>Estimation Poker</h1>
-<p class="text-muted">Introduce un código o crea una nueva sesión.</p>
-Entrar: <input  type="text" id="session_code" />
-<button id="enter">Entrar</button>
-<hr>
-<button>Crear nueva sesión</button>
-
+    <h1>Estimación con Planning Póker</h1>
+    <p class="text-muted">Introduce un código o crea una nueva sesión. ¿No sabes cómo funciona la estimación con póker? Puedes aprender un poco aquí: <a href="https://bit.ly/3dvPBqx" class="ref">Estimación con Poker</a></p>
+    <div class="row">
+        <div class="column column-50">
+            <h3>Entrar en sesión existente</h3>
+            Nombre o código de la sesión: <input  type="text" id="session_code" />
+            <button id="enter">Entrar</button>
+        </div>
+        <div class="column column-50">
+            <h3>Crear nueva sesión</h3>
+            Nombre: <input  type="text" id="new_session_code" />
+            <button id="enter">Crear</button>
+        </div>
+    </div>
 </div>

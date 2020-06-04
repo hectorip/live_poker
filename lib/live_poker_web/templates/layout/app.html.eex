@@ -20,7 +20,10 @@
           </ul>
         </nav>
         <a href="https://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/bow.png") %>" alt="Phoenix Framework Logo"/>
+          <%# 
+            <img src="<%= Routes.static_path(@conn, "/images/bow.png") %#>" alt="Phoenix Framework Logo"/> 
+          %>
+          <h1>Focus Tools</h1>
         </a>
       </section>
     </header>
