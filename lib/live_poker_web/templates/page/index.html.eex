@@ -1,5 +1,42 @@
-<div id="container">
-Name: <input type="text" id="n" />
+
+
+<h1 class="text-4xl">Herramientas para trabajar mejor en equipo</h1>
+
+<p class="text-indigo-900">
+Escoge una de las herramientas que tenemos, enfocas en hacer la vida
+de los equipos de trabjo más fácil.
+</p>
+
+<div class="p-6 rounded border flex m-3">
+
+<div class="max-w-sm w-full lg:max-w-full lg:flex shadow-xl">
+  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://source.unsplash.com/random/800x600')" title="Woman holding a mug">
+  </div>
+  <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+    <div class="mb-8">
+      <div class="text-gray-900 font-bold text-xl mb-2">Team-timer</div>
+      <p class="text-gray-700 text-base">
+        Coordina sesiones de trabajo enfocadas con tu equipo
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-sm w-full lg:max-w-full lg:flex shadow-xl">
+  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://source.unsplash.com/random/800x600')" title="Woman holding a mug">
+  </div>
+  <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+    <div class="mb-8">
+      <div class="text-gray-900 font-bold text-xl mb-2">Live Póker</div>
+      <p class="text-gray-700 text-base">
+        Crea una sesión de estimación usando el estilo "Póker Planning" con tu equipo.
+      </p>
+    </div>
+  </div>
+</div>
+
+</div>
+Nombre: <input type="text" id="n" class="border" />
 <button class="send">1</button>
 <button class="send">2</button>
 <button class="send">3</button>
@@ -8,4 +45,3 @@ Name: <input type="text" id="n" />
 <button class="send">13</button>
 <button class="send">21</button>
 <button class="send">EPIC</button>
-</div>
