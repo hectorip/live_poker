@@ -1,6 +1,6 @@
-<div id="container">
+<div id="container mx-auto">
     <h1>Estimación con Planning Póker</h1>
-    <p class="text-muted">Introduce un código o crea una nueva sesión. ¿No sabes cómo funciona la estimación con póker? Puedes aprender un poco aquí: <a href="https://bit.ly/3dvPBqx" class="ref">Estimación con Poker</a></p>
+    <p class="text-muted">Introduce un código o crea una nueva sesión. ¿No sabes cómo funciona la estimación con póker? Puedes aprender un poco aquí: <a href="https://bit.ly/3dvPBqx" class="ref">Estimación con Poker.</a></p>
     <div class="row">
         <div class="column column-50">
             <h3>Entrar en sesión existente</h3>

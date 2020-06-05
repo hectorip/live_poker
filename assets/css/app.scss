@@ -1,6 +1,25 @@
 /* This file is for your main application css. */
-@import "./phoenix.css";
+/* app.css */
 
+@tailwind base;
+
+button {
+  @apply text-indigo-600 font-bold py-2 px-4 border border-indigo-700 rounded;
+}
+
+button:hover {
+  @apply bg-indigo-700 text-white;
+}
+
+@tailwind components;
+
+
+
+/* Put your custom components here */
+
+@tailwind utilities;
+
+/* Put your custom utilities here */
 /* Alerts and form errors */
 .alert {
   padding: 15px;
@@ -28,4 +47,8 @@
 }
 .alert:empty {
   display: none;
+}
+
+.logo{
+  max-width: 40rem;
 }
