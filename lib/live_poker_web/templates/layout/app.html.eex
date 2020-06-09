@@ -13,7 +13,7 @@
       <nav class="container mx-auto flex items-center justify-between flex-wrap p-3 bg-gray-300">
         <div class="flex items-center flex-shrink-0 text-white">
           <span class="font-semibold tracking-tight ">
-            <img class="logo" src="<%= Routes.static_path(@conn, "/images/logo_transparent.png") %>" alt="logo"/> 
+            <img class="logo" src="<%= Routes.static_path(@conn, "/images/logo_transparent.png") %>" alt="Logo Focus Tools"/>
           </span>
         </div>
         <div class="block lg:hidden">
@@ -25,6 +25,12 @@
           <div class="float-right">
             <a href="#" class="inline-block text-lg px-4 py-2 rounded text-indigo-700 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0 right-0">
               Información
+            </a>
+            <a href="#" class="inline-block text-lg px-4 py-2 rounded text-indigo-700 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0 right-0">
+              Registro
+            </a>
+            <a href="#" class="inline-block text-lg px-4 py-2 rounded text-indigo-700 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0 right-0">
+              Login
             </a>
           </div>
         </div>
