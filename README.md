@@ -1,5 +1,3 @@
-# Live Poker
+# Agile Tools
 
-Proyecto para hacer un planning poker en tiempo real de forma sencilla.
-
-Probando los canales y LiveView.
+Herramientas para trabajar de manera remota efectivamente con tu equipo.
