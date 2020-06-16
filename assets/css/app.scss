@@ -13,8 +13,6 @@ button:hover {
 
 @tailwind components;
 
-
-
 /* Put your custom components here */
 
 @tailwind utilities;
@@ -48,7 +46,6 @@ button:hover {
 .alert:empty {
   display: none;
 }
-
-.logo{
+.logo {
   max-width: 20rem;
 }

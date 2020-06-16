@@ -68,7 +68,6 @@ for (let b of buttons) {
   })
 }
 channel.on("hello", payload => {
-  console.log("received")
   let messageItem = document.createElement("p")
   messageItem.innerText = `${payload.message}`
   c.appendChild(messageItem)  
@@ -78,5 +77,4 @@ channel.join()
   .receive("ok", resp => { console.log("Joined successfully", resp) })
   .receive("error", resp => { console.log("Unable to join", resp) })
 
-// window.setInterval(()=>{channel.push("hello", {message: i++})}, 1000)
 export default socket
