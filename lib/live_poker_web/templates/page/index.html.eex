@@ -3,14 +3,15 @@
 <h1 class="text-4xl">Herramientas para trabajar mejor en equipo</h1>
 
 <p class="text-indigo-900">
-Escoge una de las herramientas que tenemos, enfocas en hacer la vida
-de los equipos de trabjo más fácil.
+  Escoge una de las herramientas que tenemos, enfocas en hacer la vida
+  de los equipos de trabjo más fácil.
 </p>
 
-<div class="p-6 rounded border flex m-3">
+<div class="grid md:grid-cols-2 gap-4 p-6 rounded border flex m-3">
 
 <div class="max-w-sm w-full lg:max-w-full lg:flex shadow-xl">
-  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://source.unsplash.com/random/800x600')" title="Woman holding a mug">
+  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+    style="background-image: url('https://source.unsplash.com/random/800x600')" title="Team Timer">
   </div>
   <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
     <div class="mb-8">

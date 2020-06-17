@@ -11,6 +11,10 @@ button:hover {
   @apply bg-indigo-700 text-white;
 }
 
+a {
+   @apply text-indigo-600;
+}
+
 @tailwind components;
 
 /* Put your custom components here */
