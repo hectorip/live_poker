@@ -1,12 +1,13 @@
 
 <h1 class="text-3xl">Planning Póker</h1>
     <p class="text-gray-600">
-        Introduce un código o crea una nueva sesión. 
+        Introduce un código o crea una nueva sesión.
     </p>
     <div class="border rounded mb-6 mt-6 p-4 grid md:grid-cols-2 gap-4">
         <div>
             <h3 class="text-xl bolder">Entrar en sesión existente</h3>
-            Nombre o código de la sesión: <input  type="text" id="session_code" class="border rounded"/>
+            <form method="GET">
+            Nombre o código de la sesión: <input  type="text" id="session_code" name="sc" class="border rounded"/>
             <button class="block mt-3" id="enter">Entrar</button>
         </div>
         <div>

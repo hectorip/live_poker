@@ -54,7 +54,7 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 // Finally, connect to the socket:
 socket.connect()
 
-// Now that you are connected, you can join channels with a topic:
+// Now tha you are connected, you can join channels with a topic:
 let channel = socket.channel("poker_room:lobby", {})
 let c = document.querySelector("#container");
 let buttons = document.querySelectorAll(".send");
