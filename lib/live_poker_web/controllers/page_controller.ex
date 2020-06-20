@@ -8,4 +8,8 @@ defmodule LivePokerWeb.PageController do
   def enter_session(conn, _params) do
     render(conn, "enter_session.html")
   end
+
+  def session(conn, _params) do
+    render(conn, "lp_session.html")
+  end
 end

@@ -1,0 +1,6 @@
+
+<h1 class="text-3xl">Live póker: <%= @session_name %> </h1>
+
+<div class="border rounded">
+    <h4>Participantes</h4>
+</div>

@@ -18,8 +18,13 @@ defmodule LivePokerWeb.Router do
 
     get "/", PageController, :index
     get "/enter_session", PageController, :enter_session
+    get "/session", PageController, :enter_session
   end
+  scope "/live_poker", LivePokerWeb do
+    pipe_through :browser
 
+    get "/session", PageController, :session
+  end
   # Other scopes may use custom stacks.
   # scope "/api", LivePokerWeb do
   #   pipe_through :api

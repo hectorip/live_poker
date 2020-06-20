@@ -6,9 +6,9 @@
     <div class="border rounded mb-6 mt-6 p-4 grid md:grid-cols-2 gap-4">
         <div>
             <h3 class="text-xl bolder">Entrar en sesión existente</h3>
-            <form method="GET">
+            <form method="GET" action="<%= Routes.page_path(@conn, :session) %>">
             Nombre o código de la sesión: <input  type="text" id="session_code" name="sc" class="border rounded"/>
-            <button class="block mt-3" id="enter">Entrar</button>
+            <input type="submit" class="block mt-3 text-indigo-600 font-bold py-2 px-4 border border-indigo-700 rounded      " id="enter" value="Entrar">
         </div>
         <div>
             <div>
