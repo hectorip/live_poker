@@ -3,4 +3,7 @@
 
 <div class="border rounded">
     <h4>Participantes</h4>
+    <% for p  <- @participants do %>
+
+    <% end %>
 </div>
