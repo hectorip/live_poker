@@ -5,6 +5,7 @@ defmodule LivePokerWeb.PageController do
     render(conn, "index.html")
   end
 
+  @spec enter_session(Plug.Conn.t(), any) :: Plug.Conn.t()
   def enter_session(conn, _params) do
     render(conn, "enter_session.html")
   end
